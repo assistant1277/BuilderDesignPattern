@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 //working of builder design pattern -> this class coordinates everything means it asks CarService to build both
-//sports car and family car and after cars are built it displays details using Console.WriteLine
+//sport car and family car and after cars are built it displays details using Console.WriteLine
 
 namespace CarBuilderApp.Presentations
 {

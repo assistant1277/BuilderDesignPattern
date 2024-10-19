@@ -33,7 +33,7 @@ namespace CarBuilderApp.Services
             return _carBuilder.BuildCar(); //return full built sports car 
         }
 
-        //below method sets up and builds a family car
+        //below method sets up and build family car
         public Car BuildFamilyCar()
         {
             _carBuilder.SetEngine("v6"); //set less powerful but decent v6 engine

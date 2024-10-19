@@ -25,7 +25,7 @@ namespace CarBuilderApp.Presentations
             //create CarService instance means create CarService to build cars using builder
             CarService carService = new CarService(carBuilder);
 
-            //build and show sports car
+            //build and show sport car
             Car sportsCar = carService.BuildSportCar();
             ShowCarDetails("1) Sport car", sportsCar);  
 

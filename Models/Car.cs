@@ -18,7 +18,7 @@ namespace CarBuilderApp.Models
         public int Seats { get; set; } //stores number of seats
         public bool HasAirbags { get; set; }
 
-        //method overrides default behavior to return nicely/clean formatted car detail
+        //below method override default behavior to return nicely/clean formatted car detail
         public override string ToString()
         {
             return $"Car details are -> \n"+

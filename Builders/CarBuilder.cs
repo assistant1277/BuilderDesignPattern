@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//working of builder design pattern -> class implement ICarBuilder interface and builds car by implementing
+//working of builder design pattern -> this class implement ICarBuilder interface and builds car by implementing
 //each step means set engine,set wheels,etc and this is actual worker that builds car step by step
 
 namespace CarBuilderApp.Builders

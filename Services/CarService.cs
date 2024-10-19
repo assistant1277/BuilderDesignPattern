@@ -23,7 +23,7 @@ namespace CarBuilderApp.Services
             _carBuilder = carBuilder; //we store car builder
         }
 
-        //below method sets up and builds sports car
+        //below method sets up and build sport car
         public Car BuildSportCar()
         {
             _carBuilder.SetEngine("v12"); //set powerful v12 engine
